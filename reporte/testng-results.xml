@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Antes de iniciar URL: https://www.demoblaze.com]]>
+    </line>
+    <line>
+      <![CDATA[Ejecutando la prueba de ir a la página About.]]>
+    </line>
+    <line>
+      <![CDATA[Modal Abierto.]]>
+    </line>
+    <line>
+      <![CDATA[Modal cerrado.]]>
+    </line>
+    <line>
+      <![CDATA[Valor de variable correo: rebecaramirez1311@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Valor de variable nombre: Rebeca Ramirez]]>
+    </line>
+    <line>
+      <![CDATA[Valor de variable mensaje: Solicito la lista de precios actualizada del mes junio en formato PDF, gracias.]]>
+    </line>
+    <line>
+      <![CDATA[Valor de variable alerta: Thanks for the message!!]]>
+    </line>
+    <line>
+      <![CDATA[Ejecutando la prueba de envio de formulario de contacto.]]>
+    </line>
+    <line>
+      <![CDATA[Modal cerrado.]]>
+    </line>
+    <line>
+      <![CDATA[Modal abierto.]]>
+    </line>
+    <line>
+      <![CDATA[Ejecutando la prueba de registro de usuario.]]>
+    </line>
+    <line>
+      <![CDATA[Valor de variable usuario: BeckySLR]]>
+    </line>
+    <line>
+      <![CDATA[Valor de variable contra: gatitos2]]>
+    </line>
+    <line>
+      <![CDATA[Ejecutando la prueba de envio de formulario de registro.]]>
+    </line>
+    <line>
+      <![CDATA[Modal Abierto.]]>
+    </line>
+    <line>
+      <![CDATA[Modal cerrado.]]>
+    </line>
+    <line>
+      <![CDATA[Modal abierto.]]>
+    </line>
+    <line>
+      <![CDATA[Ejecutando la prueba de login de usuario.]]>
+    </line>
+    <line>
+      <![CDATA[Valor de variable usuario: BeckySLR]]>
+    </line>
+    <line>
+      <![CDATA[Valor de variable contra: gatitos2]]>
+    </line>
+    <line>
+      <![CDATA[Ejecutando la prueba de envio de formulario de login.]]>
+    </line>
+    <line>
+      <![CDATA[Modal Abierto.]]>
+    </line>
+    <line>
+      <![CDATA[Modal cerrado.]]>
+    </line>
+    <line>
+      <![CDATA[Modal abierto.]]>
+    </line>
+    <line>
+      <![CDATA[Wrong password.]]>
+    </line>
+    <line>
+      <![CDATA[Terminamos la prueba.]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16338" started-at="2023-05-31T22:03:00 CST" finished-at="2023-05-31T22:03:16 CST">
+    <groups>
+      <group name="Fumadores">
+        <method signature="GoogleTest.aboutPage(org.testng.ITestContext)[pri:1, instance:GoogleTest@7b420819]" name="aboutPage" class="GoogleTest"/>
+        <method signature="GoogleTest.formularioContacto(org.testng.ITestContext)[pri:2, instance:GoogleTest@7b420819]" name="formularioContacto" class="GoogleTest"/>
+        <method signature="GoogleTest.registro(org.testng.ITestContext)[pri:3, instance:GoogleTest@7b420819]" name="registro" class="GoogleTest"/>
+        <method signature="GoogleTest.login(org.testng.ITestContext)[pri:4, instance:GoogleTest@7b420819]" name="login" class="GoogleTest"/>
+      </group> <!-- Fumadores -->
+    </groups>
+    <test name="/Users/emanueru/IdeaProjects/QAML-Selenium" duration-ms="16338" started-at="2023-05-31T22:03:00 CST" finished-at="2023-05-31T22:03:16 CST">
+      <class name="GoogleTest">
+        <test-method status="PASS" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:GoogleTest@7b420819]" name="beforeClass" is-config="true" duration-ms="1204" started-at="2023-05-31T22:03:00 CST" description="Antes de empezar" finished-at="2023-05-31T22:03:01 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5dcd8c7a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Antes de iniciar URL: https://www.demoblaze.com]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="aboutPage(org.testng.ITestContext)[pri:1, instance:GoogleTest@7b420819]" name="aboutPage" duration-ms="2284" started-at="2023-05-31T22:03:01 CST" description="Prueba About Page" finished-at="2023-05-31T22:03:03 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5dcd8c7a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Ejecutando la prueba de ir a la página About.]]>
+            </line>
+            <line>
+              <![CDATA[Modal Abierto.]]>
+            </line>
+            <line>
+              <![CDATA[Modal cerrado.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aboutPage -->
+        <test-method status="PASS" signature="formularioContacto(org.testng.ITestContext)[pri:2, instance:GoogleTest@7b420819]" name="formularioContacto" duration-ms="3065" started-at="2023-05-31T22:03:03 CST" description="Prueba3" finished-at="2023-05-31T22:03:06 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5dcd8c7a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Valor de variable correo: rebecaramirez1311@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Valor de variable nombre: Rebeca Ramirez]]>
+            </line>
+            <line>
+              <![CDATA[Valor de variable mensaje: Solicito la lista de precios actualizada del mes junio en formato PDF, gracias.]]>
+            </line>
+            <line>
+              <![CDATA[Valor de variable alerta: Thanks for the message!!]]>
+            </line>
+            <line>
+              <![CDATA[Ejecutando la prueba de envio de formulario de contacto.]]>
+            </line>
+            <line>
+              <![CDATA[Modal cerrado.]]>
+            </line>
+            <line>
+              <![CDATA[Modal abierto.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- formularioContacto -->
+        <test-method status="PASS" signature="registro(org.testng.ITestContext)[pri:3, instance:GoogleTest@7b420819]" name="registro" duration-ms="5076" started-at="2023-05-31T22:03:06 CST" description="Prueba Registro" finished-at="2023-05-31T22:03:12 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5dcd8c7a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Ejecutando la prueba de registro de usuario.]]>
+            </line>
+            <line>
+              <![CDATA[Valor de variable usuario: BeckySLR]]>
+            </line>
+            <line>
+              <![CDATA[Valor de variable contra: gatitos2]]>
+            </line>
+            <line>
+              <![CDATA[Ejecutando la prueba de envio de formulario de registro.]]>
+            </line>
+            <line>
+              <![CDATA[Modal Abierto.]]>
+            </line>
+            <line>
+              <![CDATA[Modal cerrado.]]>
+            </line>
+            <line>
+              <![CDATA[Modal abierto.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registro -->
+        <test-method status="PASS" signature="login(org.testng.ITestContext)[pri:4, instance:GoogleTest@7b420819]" name="login" duration-ms="4378" started-at="2023-05-31T22:03:12 CST" description="Prueba Login" finished-at="2023-05-31T22:03:16 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5dcd8c7a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Ejecutando la prueba de login de usuario.]]>
+            </line>
+            <line>
+              <![CDATA[Valor de variable usuario: BeckySLR]]>
+            </line>
+            <line>
+              <![CDATA[Valor de variable contra: gatitos2]]>
+            </line>
+            <line>
+              <![CDATA[Ejecutando la prueba de envio de formulario de login.]]>
+            </line>
+            <line>
+              <![CDATA[Modal Abierto.]]>
+            </line>
+            <line>
+              <![CDATA[Modal cerrado.]]>
+            </line>
+            <line>
+              <![CDATA[Modal abierto.]]>
+            </line>
+            <line>
+              <![CDATA[Wrong password.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="terminamos()[pri:0, instance:GoogleTest@7b420819]" name="terminamos" is-config="true" duration-ms="295" started-at="2023-05-31T22:03:16 CST" description="Terminamos la prueba" finished-at="2023-05-31T22:03:16 CST">
+          <reporter-output>
+            <line>
+              <![CDATA[Terminamos la prueba.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- terminamos -->
+      </class> <!-- GoogleTest -->
+    </test> <!-- /Users/emanueru/IdeaProjects/QAML-Selenium -->
+  </suite> <!-- Suite -->
+</testng-results>

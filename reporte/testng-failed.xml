@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="/Users/emanueru/IdeaProjects/QAML-Selenium(failed)">
+    <parameter name="webdriver.login.login.mensaje" value="gatitos2"/>
+    <parameter name="webdriver.login.registro.mensaje.ok" value="Sign up successful."/>
+    <parameter name="webdriver.producto.laptop.nombre" value="Sony vaio i5"/>
+    <parameter name="webdriver.orden.ciudad" value="Rebeca Ramirez"/>
+    <parameter name="webdriver.producto.celulares.descripcion" value="The Motorola Google Nexus 6 is powered by 2.7GHz quad-core Qualcomm Snapdragon 805 processor and it comes with 3GB of RAM.  "/>
+    <parameter name="webdriver.login.registro.mensaje.error" value="Please fill out Username and Password."/>
+    <parameter name="webdriver.orden.mes" value="09"/>
+    <parameter name="webdriver.producto.celulares.precio" value="$650"/>
+    <parameter name="webdriver.login.login.mensaje.existe" value="This user already exist."/>
+    <parameter name="webdriver.contacto.alerta" value="Thanks for the message!!"/>
+    <parameter name="webdriver.contacto.mensaje" value="Solicito la lista de precios actualizada del mes junio en formato PDF, gracias."/>
+    <parameter name="webdriver.orden.ano" value="22"/>
+    <parameter name="webdriver.login.login.mensaje.error" value="Wrong password."/>
+    <parameter name="webdriver.pagina_web.direccion" value="2390 El Camino Real"/>
+    <parameter name="webdriver.login.login.usuario" value="BeckySLR"/>
+    <parameter name="webdriver.login.login.contra" value="gatitos2"/>
+    <parameter name="webdriver.login.registro.mensaje.existe" value="This user already exist."/>
+    <parameter name="webdriver.producto.celulares.nombre" value="Nexus 6"/>
+    <parameter name="webdriver.producto.laptop.precio" value="$790"/>
+    <parameter name="webdriver.orden.nombre" value="Rebeca Ramirez"/>
+    <parameter name="webdriver.orden.tarjeta" value="1709-2217-0917-0922"/>
+    <parameter name="webdriver.producto.monitores.nombre" value="Apple monitor 24"/>
+    <parameter name="webdriver.producto.monitores.descripcion" value="LED Cinema Display features a 27-inch glossy LED-backlit TFT active-matrix LCD display with IPS technology and an optimum resolution of 2560x1440. It has a 178 degree horizontal and vertical viewing angle, a &quot;typical&quot; brightness of 375 cd/m2, contrast ratio of 1000:1, and a 12 ms response time."/>
+    <parameter name="webdriver.producto.laptop.descripcion" value="Sony is so confident that the VAIO S is a superior ultraportable laptop that the company proudly compares the notebook to Apple&#039;s 13-inch MacBook Pro. And in a lot of ways this notebook is better, thanks to a lighter weight."/>
+    <parameter name="webdriver.contacto.nombre" value="Rebeca Ramirez"/>
+    <parameter name="webdriver.pagina_web.telefono" value="+440 123456"/>
+    <parameter name="webdriver.producto.monitores.precio" value="$790"/>
+    <parameter name="webdriver.orden.pais" value="Rebeca Ramirez"/>
+    <parameter name="webdriver.pagina_web.correo" value="demo@blazemeter.com"/>
+    <parameter name="webdriver.contacto.correo" value="rebecaramirez1311@gmail.com"/>
+    <parameter name="webdriver.pagina_web.url" value="https://www.demoblaze.com"/>
+    <groups>
+      <run>
+        <include name="Fumadores"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="GoogleTest">
+        <methods>
+          <include name="terminamos"/>
+          <include name="login" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- GoogleTest -->
+    </classes>
+  </test> <!-- /Users/emanueru/IdeaProjects/QAML-Selenium(failed) -->
+</suite> <!-- Failed suite [Suite] -->
